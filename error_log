@@ -1,0 +1,18 @@
+[05-Aug-2024 06:42:32 UTC] PHP Warning:  Constant PASSWORD_DEFAULT already defined in /home/mtefcorg/public_html/update_pass.php on line 17
+[05-Aug-2024 06:46:21 UTC] PHP Warning:  pcntl_exec(): Error has occurred: (errno 13) Permission denied in phar:///usr/local/bin/drush/includes/startup.inc on line 415
+[05-Aug-2024 07:06:39 UTC] PHP Warning:  pcntl_exec(): Error has occurred: (errno 13) Permission denied in phar:///usr/local/bin/drush/includes/startup.inc on line 415
+[05-Aug-2024 07:41:01 UTC] Drupal\Core\Database\DatabaseAccessDeniedException: SQLSTATE[28000] [1045] Access denied for user 'mtefcorg_drup462'@'localhost' (using password: YES) in /home/mtefcorg/public_html/core/modules/mysql/src/Driver/Database/mysql/Connection.php on line 185 #0 /home/mtefcorg/public_html/core/lib/Drupal/Core/Database/Database.php(460): Drupal\mysql\Driver\Database\mysql\Connection::open()
+#1 /home/mtefcorg/public_html/core/lib/Drupal/Core/Database/Database.php(191): Drupal\Core\Database\Database::openConnection()
+#2 [internal function]: Drupal\Core\Database\Database::getConnection()
+#3 /home/mtefcorg/public_html/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(77): call_user_func_array()
+#4 /home/mtefcorg/public_html/core/lib/Drupal/Component/DependencyInjection/Container.php(179): Drupal\Component\DependencyInjection\PhpArrayContainer->createService()
+#5 /home/mtefcorg/public_html/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(226): Drupal\Component\DependencyInjection\Container->get()
+#6 /home/mtefcorg/public_html/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(60): Drupal\Component\DependencyInjection\PhpArrayContainer->resolveServicesAndParameters()
+#7 /home/mtefcorg/public_html/core/lib/Drupal/Component/DependencyInjection/Container.php(179): Drupal\Component\DependencyInjection\PhpArrayContainer->createService()
+#8 /home/mtefcorg/public_html/core/lib/Drupal/Core/DrupalKernel.php(576): Drupal\Component\DependencyInjection\Container->get()
+#9 /home/mtefcorg/public_html/core/lib/Drupal/Core/DrupalKernel.php(965): Drupal\Core\DrupalKernel->getCachedContainerDefinition()
+#10 /home/mtefcorg/public_html/core/lib/Drupal/Core/DrupalKernel.php(515): Drupal\Core\DrupalKernel->initializeContainer()
+#11 /home/mtefcorg/public_html/core/lib/Drupal/Core/DrupalKernel.php(739): Drupal\Core\DrupalKernel->boot()
+#12 /home/mtefcorg/public_html/index.php(19): Drupal\Core\DrupalKernel->handle()
+#13 {main}
+[05-Aug-2024 08:20:12 UTC] PHP Warning:  Constant PASSWORD_DEFAULT already defined in /home/mtefcorg/public_html/update_pass.php on line 17
